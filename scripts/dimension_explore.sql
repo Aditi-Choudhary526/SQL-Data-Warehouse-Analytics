@@ -1,0 +1,10 @@
+-- EXPLORE ALL COUNTRIES WHERE CUSTOMERS COME FROM 
+SELECT DISTINCT COUNTRY 
+FROM gold_dim_customers;
+
+
+-- -- EXPLORE ALL CATEGORIES IN PRODUCTS
+SELECT DISTINCT category , subcategory,product_name
+FROM gold_dim_products
+ORDER BY 1,2,3;
+
